@@ -1,10 +1,10 @@
 import random
 
-number = random.randint(1, 10000)
+number = random.randint(1, 1000)
 guesses = 0
 
 while True:
-    guess = int(input("Guess the number (between 1 and 10000): "))
+    guess = int(input("Guess the number (between 1 and 1000): "))
     guesses += 1
     if guess == number:
         print("Congratulations! You guessed the number in", guesses, "guesses.")
